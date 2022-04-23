@@ -29,8 +29,6 @@ email_input.send_keys(password)
 sign_in_button = driver.find_element_by_xpath("//*[@id='main-content']/div/div/div/form/button")
 sign_in_button.click()
 
-# time.sleep(5)
-
 driver.get(linkedin_link)
 time.sleep(6)
 
@@ -67,22 +65,3 @@ for ad in all_ads:
 
 time.sleep(5)
 driver.quit()
-
-
-# easy_apply_button = driver.find_element_by_xpath("//*[@id='ember364']")
-# easy_apply_button.click()
-#
-# phone_input = driver.find_element_by_xpath("//*[@id='urn:li:fs_easyApplyFormElement:(urn:li:fs_normalized_jobPosting:3028642397,9,phoneNumber~nationalNumber)']")
-# phone_input.send_keys(phone)
-#
-# submit = driver.find_element_by_xpath("//*[@id='ember386']")
-# submit.click()
-#
-# close_confirmation = driver.find_element_by_xpath("//*[@id='ember506']/li-icon/svg")
-# close_confirmation.click()
-# email = driver.find_element_by_id("#email-or-phone")
-# email.send_keys("hi")
-# driver.close()
-# os.environ["name"] = "Alaa"
-# USER = os.getenv('name')
-# print(username)
